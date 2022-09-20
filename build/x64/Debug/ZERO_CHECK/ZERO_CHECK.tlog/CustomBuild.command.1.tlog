@@ -1,0 +1,10 @@
+^C:\USERS\MATHI\DESKTOP\PROGRAMMING\GETPRIMES\BUILD\CMAKEFILES\3EB69F72FBDF0AE7E9E0AC2210445AED\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\cmake-3.24.2-windows-x86_64\bin\cmake.exe" -SC:/Users/mathi/Desktop/Programming/getPrimes -BC:/Users/mathi/Desktop/Programming/getPrimes/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/mathi/Desktop/Programming/getPrimes/build/getPrimes.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

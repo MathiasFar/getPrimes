@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 
-#define LIMIT 1000000
+#define LIMIT 100
 
 using namespace std;
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/mathi/Desktop/Programming/primeNumber
+# Install script for directory: C:/Users/mathi/Desktop/Programming/getPrimes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/mathi/Desktop/Programming/primeNumber/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/mathi/Desktop/Programming/getPrimes/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

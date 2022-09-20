@@ -1,0 +1,10 @@
+^C:\USERS\MATHI\DESKTOP\PROGRAMMING\GETPRIMES\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\cmake-3.24.2-windows-x86_64\bin\cmake.exe" -SC:/Users/mathi/Desktop/Programming/getPrimes -BC:/Users/mathi/Desktop/Programming/getPrimes/build --check-stamp-file C:/Users/mathi/Desktop/Programming/getPrimes/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
