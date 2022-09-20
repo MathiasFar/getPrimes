@@ -1,0 +1,3 @@
+C:/Users/mathi/Desktop/Programming/primeNumber/build/CMakeFiles/getPrimes.dir
+C:/Users/mathi/Desktop/Programming/primeNumber/build/CMakeFiles/ALL_BUILD.dir
+C:/Users/mathi/Desktop/Programming/primeNumber/build/CMakeFiles/ZERO_CHECK.dir
