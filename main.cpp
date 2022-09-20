@@ -10,10 +10,10 @@ bool* getPrimes() {
     static bool isPrime[LIMIT];
     fill(isPrime,  isPrime+LIMIT, true);
 
-    for(int i = 0; i < LIMIT; ++i) {
+    for(int i = 0; i < sqrt(LIMIT); ++i) {
         if(isPrime[i] && i != 0 && i != 1) {
             int j = i*2;
-            while(j < sqrt(LIMIT)) {
+            while(j < LIMIT) {
                 isPrime[j] = false;
                 j += i;
             }
