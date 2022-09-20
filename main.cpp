@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 #include <vector>
 
 #define LIMIT 100
@@ -12,7 +13,7 @@ bool* getPrimes() {
     for(int i = 0; i < LIMIT; ++i) {
         if(isPrime[i] && i != 0 && i != 1) {
             int j = i*2;
-            while(j < LIMIT) {
+            while(j < sqrt(LIMIT)) {
                 isPrime[j] = false;
                 j += i;
             }
